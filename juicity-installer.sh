@@ -57,7 +57,7 @@ sudo apt-get install -y unzip jq uuid-runtime
 # Detect OS and download the corresponding release
 OS=$(uname -s)
 if [ "$OS" == "Linux" ]; then
-    BINARY_NAME="juicity-linux-x86_64.zip"
+    BINARY_NAME="juicity-linux-arm64.zip"
 else
     echo "Unsupported OS: $OS"
     exit 1
